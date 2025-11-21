@@ -1,0 +1,38 @@
+body {
+    color: whitesmoke;
+    background-color: #016f21;
+    font-size: 28px;
+    text-align: center;
+    color: palegoldenrod;
+    font-weight: bolder;
+}
+
+h1 {
+    color: goldenrod;
+    background-color: brown;
+    text-align: center;
+    font-size: 80px;
+}
+
+#message1 {
+    text-align: center;
+    font-size: 35px;
+    color: peachpuff;
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 300px;
+    background-color: goldenrod;
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}

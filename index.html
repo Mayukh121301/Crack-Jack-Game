@@ -1,4 +1,4 @@
-<!-- <head>
+ <head>
     <link rel="stylesheet" href="blackjackgame.css">
 </head>
 
@@ -43,62 +43,5 @@
     </div>
     <script src="blackjackgame.js"></script> 
 </body>
-</html>-->
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blackjack Royale</title>
-    <link rel="stylesheet" href="blackjackgame.css">
-    <!-- Optional: Add a fancy font -->
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
-
-    <div class="casino-table">
-        <header>
-            <h1 class="glow-text">Blackjack Royale</h1>
-        </header>
-
-        <div class="game-area">
-            <!-- Dealer Zone -->
-            <div class="zone dealer-zone">
-                <h2>Dealer <span id="dealer-sum" class="sum-display"></span></h2>
-                <div id="dealer-cards" class="card-container">
-                    <!-- Cards will be inserted here by JS -->
-                </div>
-            </div>
-
-            <!-- Message Area (Center Field) -->
-            <div class="message-center">
-                <p id="message-el">Place your bet and press Start</p>
-            </div>
-
-            <!-- Player Zone -->
-            <div class="zone player-zone">
-                <div id="player-cards" class="card-container">
-                    <!-- Cards will be inserted here by JS -->
-                </div>
-                <h2>Player <span id="player-sum" class="sum-display"></span></h2>
-            </div>
-        </div>
-
-        <!-- UI Controls (Bottom Bar) -->
-        <footer class="ui-controls">
-            <div class="player-info">
-                <p id="player-el">Guest</p>
-                <p id="credits-el">$1,000</p>
-            </div>
-            <div class="buttons">
-                <button id="start-btn" onclick="startGame()">DEAL</button>
-                <button id="hit-btn" onclick="newCard()" disabled>HIT</button>
-                <button id="stand-btn" onclick="stand()" disabled>STAND</button>
-            </div>
-        </footer>
-    </div>
-
-    <script src="blackjackgame.js"></script>
-</body>
 </html>
+

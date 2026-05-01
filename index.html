@@ -1,4 +1,4 @@
-<head>
+<!-- <head>
     <link rel="stylesheet" href="blackjackgame.css">
 </head>
 
@@ -12,4 +12,35 @@
     <button onclick="newCard()">NEW CARD</button>
     <p id="playerCredits"></p>
     <script src="blackjackgame.js"></script>
+</body> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Pro</title>
+    <link rel="stylesheet" href="blackjackgame.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>BLACKJACK</h1>
+        
+        <div class="status-board">
+            <p id="message1">Ready to test your luck?</p>
+            <div class="stats">
+                <p id="cardsTotal">Cards: </p>
+                <p id="sumTotal">Sum: 0</p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="btn-main" onclick="startGame()">START GAME</button>
+            <button class="btn-secondary" onclick="newCard()">NEW CARD</button>
+        </div>
+
+        <p id="playerCredits"></p>
+    </div>
+    <script src="blackjackgame.js"></script>
 </body>
+</html>
